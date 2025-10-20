@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = "https://business-sim-backend.onrender.com/api";
 
 // Business APIs
 export const getBusinesses = () => axios.get(`${API_BASE}/businesses`).then(r => r.data);
